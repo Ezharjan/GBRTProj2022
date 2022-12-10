@@ -23,7 +23,7 @@ local commitCmd = 'git commit -m ' .. commitInfo
 local pushCmd =  'git push -u origin master'
 local pullCmd =  'git pull'
 
--- tryTillSucceed(pullCmd)
+tryTillSucceed(pullCmd)
 os.execute(addCmd)
 os.execute(commitCmd)
 tryTillSucceed(pushCmd)

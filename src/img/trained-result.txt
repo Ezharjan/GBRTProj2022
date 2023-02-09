@@ -1,0 +1,30 @@
+Add tree number 1
+Train mean loss is: 30.014467452422146
+Test mean loss is: 29.86049362024175
+Add tree number 2
+Train mean loss is: 103.64727130731482
+Test mean loss is: 99.26591479779911
+Add tree number 3
+Train mean loss is: 119.11016011683648
+Test mean loss is: 114.30606533958733
+Add tree number 4
+Train mean loss is: 120.73744508202917
+Test mean loss is: 115.89107647800668
+Add tree number 5
+Train mean loss is: 120.90098353939085
+Test mean loss is: 116.05038755269103
+Add tree number 6
+Train mean loss is: 120.9173454847353
+Test mean loss is: 116.06632675976775
+Add tree number 7
+Train mean loss is: 120.9189817602659
+Test mean loss is: 116.06792076147154
+Add tree number 8
+Train mean loss is: 120.91914538862883
+Test mean loss is: 116.06808016245182
+Add tree number 9
+Train mean loss is: 120.91916175147327
+Test mean loss is: 116.06809610255799
+Add tree number 10
+Train mean loss is: 120.91916338775779
+Test mean loss is: 116.0680976965687

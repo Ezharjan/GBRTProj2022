@@ -14,9 +14,9 @@ def split_data(data, train_percent=0.8):
 
 def parse_data(path):
     df = pd.read_csv(path, index_col=0)
-    df = df[~df.SalePrice.isnull()]
-    if 'MSSubClass' in df.columns:
-        df['MSSubClass'] = df.MSSubClass.astype(object)  # categorical feature with numerical values
+    df = df[~df.TotalScore.isnull()]
+    if 'ProfitAbility' in df.columns:
+        df['ProfitAbility'] = df.ProfitAbility.astype(object)  # categorical feature with numerical values
 
     df_train, df_test = split_data(df)
 
@@ -48,7 +48,7 @@ def fillna_numerical_columns(data, imputation_values):
 
 
 class TrainDataSet:
-    def __init__(self, data, label_name='SalePrice'):
+    def __init__(self, data, label_name='TotalScore'):
         self.data = data
         self.label_name = label_name
 

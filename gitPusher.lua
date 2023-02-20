@@ -20,7 +20,7 @@ end
 local commitInfo = '\"auto commit at ostime(' .. string.sub(tostring(os.time()),5) .. ') via gitPusher\"'
 local addCmd = 'git add .'
 local commitCmd = 'git commit -m ' .. commitInfo
-local pushCmd =  'git push -u origin master'
+local pushCmd =  'git push -u origin main'
 local pullCmd =  'git pull'
 
 tryTillSucceed(pullCmd)

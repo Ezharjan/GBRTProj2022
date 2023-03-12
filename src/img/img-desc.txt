@@ -1,0 +1,6 @@
+img1: Training result in 10 different times
+img2: Comparison of the training result with the ground truth at RT max depth 1 and RT max depth 2
+img3: Details of the comparison when RT depth is 1
+img4: The gap between the training and the testing
+img5: Testing results with different variance and bias when the leaf is 3 (whereas ours is 6, the middle leaf is selected to illustrate the case better)
+img6: Comparison under the rate of 0.1 on both testing and training

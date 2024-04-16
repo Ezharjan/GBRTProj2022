@@ -1,0 +1,9 @@
+# www.robotstxt.org
+# Reference: https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=en&visit_id=638488375663117621-2823723080&rd=1
+
+
+# Disallow crawling of all content
+User-agent: *
+User-agent: AdsBot-Google
+Disallow: /
+
